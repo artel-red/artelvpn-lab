@@ -1,0 +1,5 @@
+{
+  "id": "payload_stall",
+  "evidence": "synthetic_model",
+  "max_delivered_bytes": 16384
+}

@@ -1,0 +1,7 @@
+{
+  "id": "allowlist_sni",
+  "evidence": "synthetic_model",
+  "allowed_names": [
+    "allowed.test"
+  ]
+}

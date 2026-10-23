@@ -1,0 +1,24 @@
+name: Research idea
+description: State a falsifiable hypothesis and prior work.
+body:
+  - type: markdown
+    attributes:
+      value: "Public issue. Do not include secrets, real endpoints, private captures or participant identities."
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and scope
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Prior work, baseline, evidence and reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations, data provenance and resource cost
+    validations:
+      required: true

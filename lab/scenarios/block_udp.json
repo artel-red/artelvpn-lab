@@ -1,0 +1,7 @@
+{
+  "id": "block_udp",
+  "evidence": "synthetic_model",
+  "blocked_transports": [
+    "udp"
+  ]
+}

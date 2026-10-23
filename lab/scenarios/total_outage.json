@@ -1,0 +1,5 @@
+{
+  "id": "total_outage",
+  "evidence": "synthetic_model",
+  "total_outage": true
+}

@@ -1,0 +1,24 @@
+name: Bug report
+description: Describe a reproducible problem with synthetic inputs.
+body:
+  - type: markdown
+    attributes:
+      value: "Public issue. Do not include secrets, real endpoints, private captures or participant identities."
+  - type: textarea
+    id: description
+    attributes:
+      label: Description and scope
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Prior work, baseline, evidence and reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limitations, data provenance and resource cost
+    validations:
+      required: true
